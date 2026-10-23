@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio Pessoal</title>
+
+  <!-- Metatags para controle de compartilhamento e pré-visualização (WhatsApp, LinkedIn, etc.) -->
+  <meta name="description" content="Portfólio Pessoal de Gabriel Carreiro Zanelatto - Pesquisador, Geocientista e Vulcanólogo.">
+  <meta property="og:title" content="Portifólio Pessoal - Gabriel Carreiro Zanelatto">
+  <meta property="og:description" content="Conheça minha trajetória acadêmica, competências, artigos científicos, Lattes e ORCID.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="foto_de_perfil.jpg">
+
+  <!-- Controle de privacidade nos buscadores: apenas quem tiver o link acessa -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== CABEÇALHO & NAVEGAÇÃO ==================== -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#sobre" class="logo">Portifólio<span>Pessoal</span></a>
+        
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação e Competências</a></li>
+          <li><a href="#academico">Lattes e ORCID</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+        </ul>
+
+        <!-- Botão de alternância de tema Claro / Escuro -->
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Alternar tema de cores" title="Alternar tema">
+          <span id="themeIcon">☀️</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== SEÇÃO: SOBRE MIM ==================== -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-avatar">
+            <div class="avatar-wrapper">
+              <img src="foto_de_perfil.jpg" alt="Foto de perfil de Gabriel Carreiro Zanelatto">
+            </div>
+          </div>
+          
+          <div class="hero-text">
+            <!-- EDITE AQUI: Seu Nome e Área de Atuação -->
+            <h1>Olá, sou <span style="color: var(--primary);">Gabriel Carreiro Zanelatto</span></h1>
+            <p class="hero-tagline">Pesquisador | Geocientista | Vulcanólogo</p>
+            
+            <p class="hero-bio">
+              <!-- EDITE AQUI: Breve resumo profissional e acadêmico sobre você -->
+              Bem-vindo(a) ao meu portfólio pessoal! Sou profissional dedicado ao desenvolvimento de pesquisas, inovação e tecnologia. Tenho interesse em áreas como ciência de dados, inteligência artificial, educação e métodos quantitativos. Atuo na intersecção entre a pesquisa acadêmica e a solução prática de problemas complexos.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#academico" class="btn btn-primary">Ver Perfis Acadêmicos</a>
+              <a href="#contatos" class="btn btn-outline">Entrar em Contato</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SEÇÃO: FORMAÇÃO E COMPETÊNCIAS ==================== -->
+    <section id="formacao" class="section" style="background-color: rgba(255, 255, 255, 0.015);">
+      <div class="container">
+        <h2 class="section-title">Formação e Competências</h2>
+        <p class="section-subtitle">Minha trajetória acadêmica e principais habilidades técnicas e interpessoais.</p>
+
+        <div class="education-skills-grid">
+          <!-- Coluna 1: Formação Acadêmica -->
+          <div class="card">
+            <h3 class="column-title">
+              🎓 Formação Acadêmica
+            </h3>
+            
+            <div class="timeline">
+              <!-- EDITE AQUI: Doutorado / Pós-graduação -->
+              <div class="timeline-item">
+                <span class="timeline-period">2026 - Atual</span>
+                <h4 class="timeline-degree">Candidato a Doutorado em Geociências</h4>
+                <p class="timeline-institution">Universidade Federal do Rio Grande do Sul (UFRGS)</p>
+                <p class="timeline-desc">Pesquisa em análise de dados de subsuperfície e modelagem geológica de reservatórios (água, óleo, gás e CCS).</p>
+              </div>
+
+              <!-- EDITE AQUI: Mestrado -->
+              <div class="timeline-item">
+                <span class="timeline-period">2024 - 2026</span>
+                <h4 class="timeline-degree">Mestrado em Geociências</h4>
+                <p class="timeline-institution">Universidade Federal de Mato Grosso (UFMT)</p>
+                <p class="timeline-desc">Dissertação voltada para estratigrafia vulcânica, geoquímica, petrologia e análise de dados de subsuperfície na região norte da Bacia do Paraná.</p>
+              </div>
+
+              <!-- EDITE AQUI: Graduação -->
+              <div class="timeline-item">
+                <span class="timeline-period">2019 - 2024</span>
+                <h4 class="timeline-degree">Bacharelado em Geociências / Geologia</h4>
+                <p class="timeline-institution">Universidade Federal de Mato Grosso (UFMT)</p>
+                <p class="timeline-desc">Iniciação científica com bolsa CNPq e participação em grupos de estudos avançados.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Competências -->
+          <div class="card">
+            <h3 class="column-title">
+              ⚡ Competências & Especialidades
+            </h3>
+
+            <!-- Competências Técnicas -->
+            <div class="skills-group">
+              <h4 class="skills-subtitle">Técnicas & Pesquisa</h4>
+              <div class="tags">
+                <span class="tag">Petrofísica</span>
+                <span class="tag">Geoquímica</span>
+                <span class="tag">Estratigrafia Vulcânica</span>
+                <span class="tag">Sísmica</span>
+                <span class="tag">Petrologia</span>
+                <span class="tag">Python (Báisico)</span>
+                <span class="tag">Metodologia Científica</span>
+                <span class="tag">Escrita de Artigos</span>
+              </div>
+            </div>
+
+            <!-- Ferramentas & Softwares -->
+            <div class="skills-group">
+              <h4 class="skills-subtitle">Ferramentas & Tecnologias</h4>
+              <div class="tags">
+                <span class="tag">WellCAD</span>
+                <span class="tag">OpendTect</span>
+                <span class="tag">Docker</span>
+                <span class="tag">VS Code</span>
+                <span class="tag">Linux</span>
+              </div>
+            </div>
+
+            <!-- Idiomas & Interpessoais -->
+            <div class="skills-group">
+              <h4 class="skills-subtitle">Idiomas & Interpessoais</h4>
+              <div class="tags">
+                <span class="tag">Português (Nativo)</span>
+                <span class="tag">Inglês (Avançado)</span>
+                <span class="tag">Comunicação Científica</span>
+                <span class="tag">Gestão de Projetos</span>
+                <span class="tag">Docência & Mentoria</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SEÇÃO: LATTES E ORCID ==================== -->
+    <section id="academico" class="section">
+      <div class="container">
+        <h2 class="section-title">Currículo Lattes e ORCID iD</h2>
+        <p class="section-subtitle">Acesse meus perfis acadêmicos oficiais, histórico de publicações e produção científica.</p>
+
+        <div class="academic-cards">
+          <!-- Card Currículo Lattes -->
+          <div class="academic-card">
+            <div>
+              <div class="academic-card-header">
+                <div class="badge-icon badge-lattes">📋</div>
+                <div class="academic-info">
+                  <h3>Currículo Lattes</h3>
+                  <span>Plataforma CNPq</span>
+                </div>
+              </div>
+              <p class="academic-body">
+                Consulte o registro completo de projetos de pesquisa, artigos publicados em periódicos, participações em bancas e eventos científicos.
+              </p>
+            </div>
+            
+            <div>
+              <!-- EDITE AQUI: Substitua o link pelo endereço do seu Currículo Lattes -->
+              <a href="http://lattes.cnpq.br/7932584598990244" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">
+                Acessar Currículo Lattes &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Card ORCID ID -->
+          <div class="academic-card">
+            <div>
+              <div class="academic-card-header">
+                <div class="badge-icon badge-orcid">🆔</div>
+                <div class="academic-info">
+                  <h3>ORCID iD</h3>
+                  <span>Registro Internacional de Pesquisador</span>
+                </div>
+              </div>
+              
+              <!-- EDITE AQUI: Seu código identificador ORCID -->
+              <div class="id-badge">ORCID: 0009-0007-3140-0831</div>
+
+              <p class="academic-body">
+                Identificador digital persistente que distingue o pesquisador globalmente, integrando publicações internacionais e indexações no Scopus e Web of Science.
+              </p>
+            </div>
+
+            <div>
+              <!-- EDITE AQUI: Substitua o link pelo seu link direto do ORCID -->
+              <a href="https://orcid.org/0009-0007-3140-0831" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center; border-color: var(--accent-orcid); color: var(--accent-orcid);">
+                Ver Perfil no ORCID &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SEÇÃO: CONTATOS ==================== -->
+    <section id="contatos" class="section" style="background-color: rgba(255, 255, 255, 0.015);">
+      <div class="container">
+        <h2 class="section-title">Contatos</h2>
+        <p class="section-subtitle">Fique à vontade para entrar em contato para colaborações, palestras ou oportunidades acadêmicas e profissionais.</p>
+
+        <div class="contact-container">
+          <!-- Informações de Contato -->
+          <div class="contact-info-list">
+            <!-- EDITE AQUI: Seu e-mail -->
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h4>E-mail</h4>
+                <a href="mailto:seu.email@exemplo.com">gabrielczanelatto@gmail.com</a>
+              </div>
+            </div>
+
+            <!-- EDITE AQUI: Seu LinkedIn -->
+            <div class="contact-item">
+              <div class="contact-icon">💼</div>
+              <div class="contact-details">
+                <h4>LinkedIn</h4>
+                <a href="www.linkedin.com/in/gabriel-carreiro-zanelatto-673881190" target="_blank" rel="noopener noreferrer">linkedin.com/in/seuperfil</a>
+              </div>
+            </div>
+
+            <!-- EDITE AQUI: Seu GitHub / Repositório -->
+            <div class="contact-item">
+              <div class="contact-icon">💻</div>
+              <div class="contact-details">
+                <h4>GitHub</h4>
+                <a href="https://github.com/seuperfil" target="_blank" rel="noopener noreferrer">github.com/seuperfil</a>
+              </div>
+            </div>
+
+            <!-- EDITE AQUI: Sua Localização / Instituição -->
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h4>Localização</h4>
+                <p>Cuiabá - MT, Brasil</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulário de Mensagem Direta -->
+          <div class="card">
+            <h3 style="margin-bottom: 20px;">Envie uma mensagem</h3>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso! (Demonstração)');">
+              <div class="form-group">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" placeholder="Ex: Maria Silva" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Seu e-mail</label>
+                <input type="email" id="email" placeholder="maria@exemplo.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="margin-top: 8px;">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== RODAPÉ ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> Portifólio Pessoal. Desenvolvido com carinho e código limpo.</p>
+    </div>
+  </footer>
+
+  <!-- Script para alternância de tema e utilitários -->
+  <script>
+    // Ano dinâmico no rodapé
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Lógica para alternar Modo Escuro / Modo Claro
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    const root = document.documentElement;
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = root.getAttribute('data-theme');
+      if (currentTheme === 'light') {
+        root.removeAttribute('data-theme');
+        themeIcon.textContent = '☀️';
+      } else {
+        root.setAttribute('data-theme', 'light');
+        themeIcon.textContent = '🌙';
+      }
+    });
+  </script>
+</body>
+</html>
