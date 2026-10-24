@@ -423,6 +423,11 @@ body {
   color: var(--accent-lattes);
 }
 
+.badge-linkedin {
+  background-color: rgba(10, 102, 194, 0.14);
+  color: #0a66c2;
+}
+
 .badge-orcid {
   background-color: var(--accent-orcid-bg);
   color: var(--accent-orcid);
@@ -442,6 +447,31 @@ body {
   color: var(--text-muted);
   font-size: 0.95rem;
   margin-bottom: 24px;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.achievements-list li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.achievements-list li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-size: 1rem;
 }
 
 .id-badge {
